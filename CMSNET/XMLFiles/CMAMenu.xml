@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MainMenu>
+	<Menu>
+		<authorization>Administrator</authorization>
+		<MenuName>Account Maint</MenuName>
+		<MenuItem>
+			<Name>List Accounts</Name>
+			<Link>AdmAcnt/AdmAcntList.aspx</Link>
+		</MenuItem>
+		<MenuItem>
+			<Name>Create Account</Name>
+			<Link>AdmAcnt/AdmAcntCreate.aspx</Link>
+		</MenuItem>
+	</Menu>
+	<Menu>
+		<authorization>Administrator</authorization>
+		<MenuName>Utilities</MenuName>
+		<MenuItem>
+			<Name>Site Start/Stop</Name>
+			<Link>Util/AdmShutdown.aspx</Link>
+		</MenuItem>
+	</Menu>
+	<Menu>
+		<authorization>Administrator,Deployer</authorization>
+		<MenuName>Deploying</MenuName>
+		<MenuItem>
+			<Name>Deploy List</Name>
+			<Link>Deploy/DeployList.aspx</Link>
+		</MenuItem>
+	</Menu>
+	<Menu>
+		<authorization>Administrator,Approver</authorization>
+		<MenuName>Approving</MenuName>
+		<MenuItem>
+			<Name>List Content</Name>
+			<Link>Approve/AppList.aspx</Link>
+		</MenuItem>
+	</Menu>
+	<Menu>
+		<authorization>Administrator,Editor</authorization>
+		<MenuName>Editing</MenuName>
+		<MenuItem>
+			<Name>List Content</Name>
+			<Link>Edit/EdList.aspx</Link>
+		</MenuItem>
+	</Menu>
+	<Menu>
+		<authorization>Administrator,Author</authorization>
+		<MenuName>Authoring</MenuName>
+		<MenuItem>
+			<Name>List Content</Name>
+			<Link>Aut/AutList.aspx</Link>
+		</MenuItem>
+		<MenuItem>
+			<Name>Create Content</Name>
+			<Link>Aut/AutCreate.aspx</Link>
+		</MenuItem>
+	</Menu>
+</MainMenu>

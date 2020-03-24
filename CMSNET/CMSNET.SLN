@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMSNET", "http://localhost/cmsnet/CMSNET.csproj", "{466D60AB-A829-4646-90D2-8D8AFFD5B557}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{466D60AB-A829-4646-90D2-8D8AFFD5B557}.Debug.ActiveCfg = Debug|.NET
+		{466D60AB-A829-4646-90D2-8D8AFFD5B557}.Debug.Build.0 = Debug|.NET
+		{466D60AB-A829-4646-90D2-8D8AFFD5B557}.Release.ActiveCfg = Release|.NET
+		{466D60AB-A829-4646-90D2-8D8AFFD5B557}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

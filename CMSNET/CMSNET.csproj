@@ -1,0 +1,1274 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.0.9466"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{466D60AB-A829-4646-90D2-8D8AFFD5B557}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "CMSNET"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                RootNamespace = "CMSNET"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.XML"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "Admin.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin.aspx.cs"
+                    DependentUpon = "Admin.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin.aspx.resx"
+                    DependentUpon = "Admin.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Default.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Default.aspx.cs"
+                    DependentUpon = "Default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Default.aspx.resx"
+                    DependentUpon = "Default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Error.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Error.aspx.cs"
+                    DependentUpon = "Error.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Error.aspx.resx"
+                    DependentUpon = "Error.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "login.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "login.aspx.cs"
+                    DependentUpon = "login.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "login.aspx.resx"
+                    DependentUpon = "login.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PrivacyPolicy.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\admin.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\admin.aspx.cs"
+                    DependentUpon = "admin.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\admin.aspx.resx"
+                    DependentUpon = "admin.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\MainFrame.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\NavBar.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\NavBar.aspx.cs"
+                    DependentUpon = "NavBar.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\NavBar.aspx.resx"
+                    DependentUpon = "NavBar.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Welcome.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\AdmAcnt\AdmAcntCreate.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\AdmAcnt\AdmAcntCreate.aspx.cs"
+                    DependentUpon = "AdmAcntCreate.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\AdmAcnt\AdmAcntCreate.aspx.resx"
+                    DependentUpon = "AdmAcntCreate.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\AdmAcnt\AdmAcntList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\AdmAcnt\AdmAcntList.aspx.cs"
+                    DependentUpon = "AdmAcntList.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\AdmAcnt\AdmAcntList.aspx.resx"
+                    DependentUpon = "AdmAcntList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\AdmAcnt\admAcntRemove.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\AdmAcnt\admAcntRemove.aspx.cs"
+                    DependentUpon = "admAcntRemove.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\AdmAcnt\admAcntRemove.aspx.resx"
+                    DependentUpon = "admAcntRemove.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\AdmAcnt\AdmAcntUpdate.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\AdmAcnt\AdmAcntUpdate.aspx.cs"
+                    DependentUpon = "AdmAcntUpdate.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\AdmAcnt\AdmAcntUpdate.aspx.resx"
+                    DependentUpon = "AdmAcntUpdate.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\AdmAcnt\AdmAcntView.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\AdmAcnt\AdmAcntView.aspx.cs"
+                    DependentUpon = "AdmAcntView.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\AdmAcnt\AdmAcntView.aspx.resx"
+                    DependentUpon = "AdmAcntView.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\AdmAcnt\Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\AdmAcnt\Images\blank.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\AdmAcnt\Images\btnSelect.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\AdmAcnt\Images\CMALogo.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\AdmAcnt\Images\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Administration\Approve\AppApprove.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Approve\AppApprove.aspx.cs"
+                    DependentUpon = "AppApprove.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Approve\AppApprove.aspx.resx"
+                    DependentUpon = "AppApprove.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Approve\AppDiscont.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Approve\AppDiscont.aspx.cs"
+                    DependentUpon = "AppDiscont.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Approve\AppDiscont.aspx.resx"
+                    DependentUpon = "AppDiscont.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Approve\AppList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Approve\AppList.aspx.cs"
+                    DependentUpon = "AppList.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Approve\AppList.aspx.resx"
+                    DependentUpon = "AppList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Approve\AppReturn.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Approve\AppReturn.aspx.cs"
+                    DependentUpon = "AppReturn.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Approve\AppReturn.aspx.resx"
+                    DependentUpon = "AppReturn.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Approve\AppView.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Approve\AppView.aspx.cs"
+                    DependentUpon = "AppView.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Approve\AppView.aspx.resx"
+                    DependentUpon = "AppView.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Approve\Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Approve\Images\blank.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Approve\Images\btnSelect.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Aut\AutCreate.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Aut\AutCreate.aspx.cs"
+                    DependentUpon = "AutCreate.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Aut\AutCreate.aspx.resx"
+                    DependentUpon = "AutCreate.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Aut\AutList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Aut\AutList.aspx.cs"
+                    DependentUpon = "AutList.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Aut\AutList.aspx.resx"
+                    DependentUpon = "AutList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Aut\AutRemove.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Aut\AutRemove.aspx.cs"
+                    DependentUpon = "AutRemove.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Aut\AutRemove.aspx.resx"
+                    DependentUpon = "AutRemove.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Aut\AutSubmit.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Aut\AutSubmit.aspx.cs"
+                    DependentUpon = "AutSubmit.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Aut\AutSubmit.aspx.resx"
+                    DependentUpon = "AutSubmit.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Aut\AutUpdate.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Aut\AutUpdate.aspx.cs"
+                    DependentUpon = "AutUpdate.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Aut\AutUpdate.aspx.resx"
+                    DependentUpon = "AutUpdate.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Aut\AutView.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Aut\AutView.aspx.cs"
+                    DependentUpon = "AutView.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Aut\AutView.aspx.resx"
+                    DependentUpon = "AutView.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Aut\Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Aut\Images\blank.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Aut\Images\btnSelect.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Aut\Images\CMALogo.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Deploy\DeployArchive.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Deploy\DeployArchive.aspx.cs"
+                    DependentUpon = "DeployArchive.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Deploy\DeployArchive.aspx.resx"
+                    DependentUpon = "DeployArchive.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Deploy\DeployDeploy.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Deploy\DeployDeploy.aspx.cs"
+                    DependentUpon = "DeployDeploy.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Deploy\DeployDeploy.aspx.resx"
+                    DependentUpon = "DeployDeploy.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Deploy\DeployList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Deploy\DeployList.aspx.cs"
+                    DependentUpon = "DeployList.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Deploy\DeployList.aspx.resx"
+                    DependentUpon = "DeployList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Deploy\DeployReturn.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Deploy\DeployReturn.aspx.cs"
+                    DependentUpon = "DeployReturn.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Deploy\DeployReturn.aspx.resx"
+                    DependentUpon = "DeployReturn.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Deploy\DeployView.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Deploy\DeployView.aspx.cs"
+                    DependentUpon = "DeployView.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Deploy\DeployView.aspx.resx"
+                    DependentUpon = "DeployView.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Deploy\Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Deploy\Images\btnSelect.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Edit\EdEdit.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Edit\EdEdit.aspx.cs"
+                    DependentUpon = "EdEdit.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Edit\EdEdit.aspx.resx"
+                    DependentUpon = "EdEdit.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Edit\EdList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Edit\EdList.aspx.cs"
+                    DependentUpon = "EdList.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Edit\EdList.aspx.resx"
+                    DependentUpon = "EdList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Edit\EdReturn.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Edit\EdReturn.aspx.cs"
+                    DependentUpon = "EdReturn.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Edit\EdReturn.aspx.resx"
+                    DependentUpon = "EdReturn.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Edit\EdSubmit.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Edit\EdSubmit.aspx.cs"
+                    DependentUpon = "EdSubmit.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Edit\EdSubmit.aspx.resx"
+                    DependentUpon = "EdSubmit.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Edit\EdView.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Edit\EdView.aspx.cs"
+                    DependentUpon = "EdView.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Edit\EdView.aspx.resx"
+                    DependentUpon = "EdView.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Edit\EdWithdraw.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Edit\EdWithdraw.aspx.cs"
+                    DependentUpon = "EdWithdraw.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Edit\EdWithdraw.aspx.resx"
+                    DependentUpon = "EdWithdraw.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Edit\Images\blank.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Edit\Images\btnSelect.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Images\administration.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Images\blank.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Images\minus.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Images\plus.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Note\NoteCreate.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Note\NoteCreate.aspx.cs"
+                    DependentUpon = "NoteCreate.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Note\NoteCreate.aspx.resx"
+                    DependentUpon = "NoteCreate.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Note\NoteList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Note\NoteList.aspx.cs"
+                    DependentUpon = "NoteList.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Note\NoteList.aspx.resx"
+                    DependentUpon = "NoteList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Note\NoteRemove.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Note\NoteRemove.aspx.cs"
+                    DependentUpon = "NoteRemove.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Note\NoteRemove.aspx.resx"
+                    DependentUpon = "NoteRemove.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Note\NoteUpdate.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Note\NoteUpdate.aspx.cs"
+                    DependentUpon = "NoteUpdate.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Note\NoteUpdate.aspx.resx"
+                    DependentUpon = "NoteUpdate.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Note\NoteView.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Note\NoteView.aspx.cs"
+                    DependentUpon = "NoteView.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Note\NoteView.aspx.resx"
+                    DependentUpon = "NoteView.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Note\Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Note\Images\blank.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Note\Images\btnSelect.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Util\AdmShutdown.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Administration\Util\AdmShutdown.aspx.cs"
+                    DependentUpon = "AdmShutdown.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Administration\Util\AdmShutdown.aspx.resx"
+                    DependentUpon = "AdmShutdown.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Administration\Util\Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\ContentPg.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\ContentPg.aspx.cs"
+                    DependentUpon = "ContentPg.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CDA\ContentPg.aspx.resx"
+                    DependentUpon = "ContentPg.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CDA\Footer.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Footer.ascx.cs"
+                    DependentUpon = "Footer.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CDA\Footer.ascx.resx"
+                    DependentUpon = "Footer.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CDA\Header.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Header.ascx.cs"
+                    DependentUpon = "Header.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CDA\Header.ascx.resx"
+                    DependentUpon = "Header.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CDA\HeadlineTeaser.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\HeadlineTeaser.ascx.cs"
+                    DependentUpon = "HeadlineTeaser.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CDA\HeadlineTeaser.ascx.resx"
+                    DependentUpon = "HeadlineTeaser.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CDA\HomePg.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\HomePg.aspx.cs"
+                    DependentUpon = "HomePg.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CDA\HomePg.aspx.resx"
+                    DependentUpon = "HomePg.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CDA\Login.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Login.ascx.cs"
+                    DependentUpon = "Login.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CDA\Login.ascx.resx"
+                    DependentUpon = "Login.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CDA\Logout.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Logout.ascx.cs"
+                    DependentUpon = "Logout.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CDA\Logout.ascx.resx"
+                    DependentUpon = "Logout.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CDA\NavBar.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\NavBar.ascx.cs"
+                    DependentUpon = "NavBar.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CDA\NavBar.ascx.resx"
+                    DependentUpon = "NavBar.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CDA\Register.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Register.aspx.cs"
+                    DependentUpon = "Register.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CDA\Register.aspx.resx"
+                    DependentUpon = "Register.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CDA\StoryPg.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\StoryPg.aspx.cs"
+                    DependentUpon = "StoryPg.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CDA\StoryPg.aspx.resx"
+                    DependentUpon = "StoryPg.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CDA\ZonePg.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\ZonePg.aspx.cs"
+                    DependentUpon = "ZonePg.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CDA\ZonePg.aspx.resx"
+                    DependentUpon = "ZonePg.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CDA\Images\cancelbig.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Images\domain.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Images\home.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Images\logout.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Images\myHome.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Images\plus.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Images\register.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Images\registerbig.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Images\registerhead.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Images\signin.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Images\story.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Images\zone.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Protected\ContentPg.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Protected\ContentPg.aspx.cs"
+                    DependentUpon = "ContentPg.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CDA\Protected\ContentPg.aspx.resx"
+                    DependentUpon = "ContentPg.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CDA\Protected\myHomePg.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Protected\myHomePg.aspx.cs"
+                    DependentUpon = "myHomePg.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CDA\Protected\myHomePg.aspx.resx"
+                    DependentUpon = "myHomePg.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CDA\Protected\StoryPg.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Protected\StoryPg.aspx.cs"
+                    DependentUpon = "StoryPg.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CDA\Protected\StoryPg.aspx.resx"
+                    DependentUpon = "StoryPg.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CDA\Protected\Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Protected\ZoneCard.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Protected\ZoneCard.ascx.cs"
+                    DependentUpon = "ZoneCard.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CDA\Protected\ZoneCard.ascx.resx"
+                    DependentUpon = "ZoneCard.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CDA\Protected\ZonePg.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Protected\ZonePg.aspx.cs"
+                    DependentUpon = "ZonePg.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CDA\Protected\ZonePg.aspx.resx"
+                    DependentUpon = "ZonePg.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CDA\Protected\Images\addesign.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Protected\Images\close.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Protected\Images\edit.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Protected\Images\ExpCon.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CDA\Protected\Images\plus.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Common\AppEnv.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Common\AuthorizedPage.cs"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Common\EmailAlert.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Common\StatusCodes.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DataAccess\Account.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DataAccess\AccountProperty.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DataAccess\AccountRoles.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DataAccess\Content.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DataAccess\ContentNotes.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DataAccess\ContentRank.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DataAccess\Distribution.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DataAccess\Domain.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DataAccess\Zone.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Images\cover.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\home.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\login.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Privacy.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Setup\setup.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Setup\setup.aspx.cs"
+                    DependentUpon = "setup.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Setup\setup.aspx.resx"
+                    DependentUpon = "setup.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Setup\setup2.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Setup\setup2.aspx.cs"
+                    DependentUpon = "setup2.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Setup\setup2.aspx.resx"
+                    DependentUpon = "setup2.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Setup\setup3.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Setup\setup3.aspx.cs"
+                    DependentUpon = "setup3.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Setup\setup3.aspx.resx"
+                    DependentUpon = "setup3.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Setup\setup4.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Setup\setup4.aspx.cs"
+                    DependentUpon = "setup4.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Setup\setup4.aspx.resx"
+                    DependentUpon = "setup4.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Setup\Images\setup.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "XMLFiles\CMAMenu.xml"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+
